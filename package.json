@@ -1,0 +1,22 @@
+{
+  "name": "say_anything_runtime",
+  "version": "1.0.0",
+  "description": "mobile chat application",
+  "main": "server.js",
+  "scripts": {
+    "test": "node utest.js"
+  },
+  "keywords": [
+    "chat",
+    "app"
+  ],
+  "author": "NamalSanjaya",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^9.0.1",
+    "read-yaml-file": "^2.1.0",
+    "socket.io": "^4.5.4",
+    "unique-names-generator": "^4.7.1",
+    "uuid": "^9.0.0"
+  }
+}
